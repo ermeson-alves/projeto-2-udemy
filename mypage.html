@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- <html> define inicio e término do código -->
+<html>
+    <!-- "Cabeçalho" -->
+    <head>
+        <title>Meu Site</title>
+        <meta charset="UTF-8">
+        <!-- Deve ser um sub-diretório do diretorio com o html ou estar no mesmo diretório -->
+        <link rel="stylesheet" href="css/estilo1.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <!-- "Corpo do documento" -->
+    <body>
+        <!-- Elemento em html:
+        <p>      Meu gato é <strong>muito</strong> mau humorado     </p>
+abertura de tag  ------------------- Conteudo -----------------  fechamento tag
+        -----------------------Elemento---------------------------------
+        
+        obs: elemtentos também podem ter atributos.
+
+        <p class="atribut0">Meu gato é <strong>muito</strong> mau humorado</p>
+        
+        -->
+        <!-- Aninhamento -->
+        <header><p class="gato">Meu gato é <strong>muito</strong> mau humorado</p></header>
+        <br><a href="index.html">Home</a>  / <a href="">MyPage</a> / <a href="login.html">Login</a>
+        <div>
+            <img src="data:image/jpeg;base64,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" alt="Imagem de um wallpaper para desktop">
+
+        </div>
+
+        <div class="Titulos">
+            <h1>Teste de cabeçalhos</h1>
+            <h2>Este é o título h2</h2>
+            <h3>Este é o título h3</h3>
+            <h4>Este é o título h4</h4>
+            <h5>Este é o título h5</h5>
+            <h6>Este é o título h6</h6>
+        </div>
+        <!-- alt remete a alternative e serve para pessoas que não
+             podem visualizar a imagem -->
+        
+        <div class="Paragrafos">
+            <p>Este é um parágrafo que será comparado com os títulos</p>
+            <p>Existem dois tipos de lista em html: <b>odenadas</b> e <b>não ordenadas</b><br>
+            <br>A tag <strong>ul</strong> é usada para não ordenadas.
+            <br>A tag <strong>ol</strong> é usada para ordenadas.
+            <br><br> Cada item dentro da lista é posto em um elemento <strong>li</strong>
+            </p>
+        </div>
+
+        <div class="Listas">
+            <p>Coisas que quero aprender de dev web:</p>
+            <ul>
+                <li>Html</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>Como funciona a internet</li>
+                <li>História dos sites</li>
+                <li>Quantos itens forem possíveis do roadmap</li>
+            </ul>
+    
+            <p>Estes são oo links do roadmap:</p>
+            <ul>
+                <li>
+                    <a href="https://roadmap.sh/backend">Backend</a>
+                </li>
+                <li>
+                    <a href="https://roadmap.sh/frontend">Frontend</a>
+                </li>
+                
+            </ul>
+        </div><a href="C:/Users/ermes/OneDrive/Documentos/Materiais Faculdade/Programação/Web/Udemy/2 Projeto/index.html"></a>
+        
+     
+        <script src="js/main.js"></script>
+    </body>
+    
+</html>
