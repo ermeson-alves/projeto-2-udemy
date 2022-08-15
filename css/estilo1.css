@@ -21,6 +21,7 @@ header{
 /* BODY */
 body{
     width:600px;
+    height: auto;
     margin: 0 auto;
     background-color:white;
     /* Deve ser definido um estilo para a borda */
